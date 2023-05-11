@@ -1,0 +1,47 @@
+
+.footer{
+    display: flex;
+    box-sizing:border-box;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "Montserrat" , sans-serif;
+    font-size: 20px;
+    height: 241px;
+    align-items: center;
+    align-content: center;
+    padding: 5px 30px;
+  
+ 
+}
+
+.redes img{
+    max-height: 25px;
+    padding: 15px;
+    cursor: pointer;
+   
+}
+
+.footer__logo{
+    
+    height: 70px;
+}
+
+@media (max-width: 480px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        text-align: center;
+        padding: 20px 30px;
+    }
+
+    .footer__logo{
+        height: 55px;
+        padding-left: 50px;
+        padding-bottom: 15px;
+      
+    }
+    
+}
