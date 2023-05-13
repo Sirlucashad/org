@@ -1,7 +1,8 @@
 import "./Footer.css"
 
+
 const Footer = () =>{
-    return <footer className="footer" style={{backgroundImage:"url(./img/footer.png)"}}>
+    return <footer className="footer" style={{backgroundImage:"url(./img/Footer.png)"}}>
          <div className="redes">
             <a href="https://www.facebook.com/mydemoncry/?paipv=0&eav=AfamSQmd-PoBI1_d_L_FQyFmwiNx_pg59hQAsaIDYQzkVqqxchcw4D75laV1QJ4COv4&_rdr">
                 <img src="./img/facebook.png" alt="Facebook" />
